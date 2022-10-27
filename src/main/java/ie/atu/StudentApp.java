@@ -43,8 +43,11 @@ public class StudentApp {
         System.out.println("You Entered : "+ stuAPP2.getEmail());
 
 
-
-
+           // created third instance for student app
+            Student stuAPP3 = new Student(name, email, course);
+            System.out.println("You Entered for name : " + stuAPP3.getName());
+            System.out.println("You Entered for email : " + stuAPP3.getEmail());
+            System.out.println("You Entered for course: " + stuAPP3.getCourse());
     }
 
 }
