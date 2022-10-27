@@ -6,6 +6,19 @@ public class Student {
     private String course;
 
 
+    public Student() {
+        this.name = name;
+        this.course = course;
+        this.email = email;
+
+    }
+
+    public Student(String course, String name,String email) {
+        this.course = course;
+        this.name = name;
+        this.email = email;
+    }
+
     public String getName() {
         return name;
     }
