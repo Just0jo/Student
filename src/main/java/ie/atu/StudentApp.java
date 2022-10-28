@@ -50,9 +50,9 @@ public class StudentApp {
             String email3 = input.nextLine();
             System.out.println("Please enter third Student course:");
             String course3 = input.nextLine();
-            Student stuAPP3 = new Student(email3,course3,name3);
-        System.out.println("You Entered for name : " + stuAPP3.getName());
-        System.out.println("You Entered for email : " + stuAPP3.getEmail());
+            Student stuAPP3 = new Student(course3,name3,email3);
+            System.out.println("You Entered for name : " + stuAPP3.getName());
+            System.out.println("You Entered for email : " + stuAPP3.getEmail());
             System.out.println("You Entered for course: " + stuAPP3.getCourse());
     }
 
